@@ -10,16 +10,24 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     width: 100vw;
-    padding: 80px;
+    overflow-x: hidden;
     background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 12%);
+    padding: 0 30vw;
+}
 
+img {
+    border-radius: 20px;
 }
 
 h1,
 h2,
 .container  {
     text-align: center;
-    margin: 20px 0;
+    margin: 40px 0;
+}
+.container {
+    overflow: hidden;
 }
 
 h1 {
